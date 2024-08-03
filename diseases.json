@@ -1,0 +1,366 @@
+{
+    "diseases": [
+      {
+        "name": "stress",
+        "medicines": [
+          {
+            "id": 1,
+            "name": "Ashwagandha",
+            "properties": ["Adaptogen", "Reduces stress", "Improves sleep"],
+            "uses": ["Boosts immunity", "Reduces anxiety", "Supports adrenal function"],
+            "treatments": [
+              {
+                "disease": "stress",
+                "details": "Helps in managing stress levels."
+              },
+              {
+                "disease": "anxiety",
+                "details": "Reduces symptoms of anxiety."
+              },
+              {
+                "disease": "insomnia",
+                "details": "Improves sleep quality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "anxiety",
+        "medicines": [
+          {
+            "id": 1,
+            "name": "Ashwagandha",
+            "properties": ["Adaptogen", "Reduces stress", "Improves sleep"],
+            "uses": ["Boosts immunity", "Reduces anxiety", "Supports adrenal function"],
+            "treatments": [
+              {
+                "disease": "stress",
+                "details": "Helps in managing stress levels."
+              },
+              {
+                "disease": "anxiety",
+                "details": "Reduces symptoms of anxiety."
+              },
+              {
+                "disease": "insomnia",
+                "details": "Improves sleep quality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "insomnia",
+        "medicines": [
+          {
+            "id": 1,
+            "name": "Ashwagandha",
+            "properties": ["Adaptogen", "Reduces stress", "Improves sleep"],
+            "uses": ["Boosts immunity", "Reduces anxiety", "Supports adrenal function"],
+            "treatments": [
+              {
+                "disease": "stress",
+                "details": "Helps in managing stress levels."
+              },
+              {
+                "disease": "anxiety",
+                "details": "Reduces symptoms of anxiety."
+              },
+              {
+                "disease": "insomnia",
+                "details": "Improves sleep quality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Arthritis",
+        "medicines": [
+          {
+            "id": 2,
+            "name": "Turmeric",
+            "properties": ["Anti-inflammatory", "Antioxidant"],
+            "uses": ["Reduces inflammation", "Supports joint health"],
+            "treatments": [
+              {
+                "disease": "Arthritis",
+                "details": "Reduces joint inflammation."
+              },
+              {
+                "disease": "Digestive Disorders",
+                "details": "Aids in digestive health."
+              },
+              {
+                "disease": "skin Conditions",
+                "details": "Supports skin health."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "skin Conditions",
+        "medicines": [
+          {
+            "id": 4,
+            "name": "Neem",
+            "properties": ["Antibacterial", "Antifungal", "Detoxifier"],
+            "uses": ["Purifies blood", "Supports skin health", "Boosts immunity"],
+            "treatments": [
+              {
+                "disease": "Skin Conditions",
+                "details": "Supports skin health and helps in treating skin infections."
+              },
+              {
+                "disease": "Diabetes",
+                "details": "Helps in managing blood sugar levels."
+              },
+              {
+                "disease": "Oral Health",
+                "details": "Supports oral health and prevents gum diseases."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Respiratory Disorders",
+        "medicines": [
+          {
+            "id": 3,
+            "name": "Tulsi",
+            "properties": ["Antibacterial", "Antiviral", "Adaptogen"],
+            "uses": ["Boosts immunity", "Relieves respiratory disorders", "Reduces stress"],
+            "treatments": [
+              {
+                "disease": "Respiratory Disorders",
+                "details": "Helps in managing respiratory conditions."
+              },
+              {
+                "disease": "Cold",
+                "details": "Provides relief from cold symptoms."
+              },
+              {
+                "disease": "Stress",
+                "details": "Helps in managing stress levels."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Digestive Disorders",
+        "medicines": [
+          {
+            "id": 5,
+            "name": "Ginger",
+            "properties": ["Anti-inflammatory", "Antioxidant"],
+            "uses": ["Supports digestive health", "Reduces nausea", "Boosts immunity"],
+            "treatments": [
+              {
+                "disease": "Digestive Disorders",
+                "details": "Aids in digestive health and reduces symptoms of indigestion."
+              },
+              {
+                "disease": "Nausea",
+                "details": "Helps in reducing nausea."
+              },
+              {
+                "disease": "Cold",
+                "details": "Provides relief from cold symptoms."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hypertension",
+        "medicines": [
+          {
+            "id": 6,
+            "name": "Brahmi",
+            "properties": ["Memory enhancer", "Stress reliever"],
+            "uses": ["Supports cardiovascular health", "Improves memory"],
+            "treatments": [
+              {
+                "disease": "Hypertension",
+                "details": "Helps in managing high blood pressure."
+              },
+              {
+                "disease": "Stress",
+                "details": "Reduces stress levels."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Diabetes",
+        "medicines": [
+          {
+            "id": 7,
+            "name": "Bitter Melon (Karela)",
+            "properties": ["Hypoglycemic", "Antioxidant"],
+            "uses": ["Regulates blood sugar levels", "Boosts immunity"],
+            "treatments": [
+              {
+                "disease": "Diabetes",
+                "details": "Helps in managing blood sugar levels."
+              },
+              {
+                "disease": "Digestive Disorders",
+                "details": "Aids in digestive health."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Obesity",
+        "medicines": [
+          {
+            "id": 8,
+            "name": "Triphala",
+            "properties": ["Detoxifier", "Digestive aid"],
+            "uses": ["Supports weight management", "Improves digestion"],
+            "treatments": [
+              {
+                "disease": "Obesity",
+                "details": "Helps in weight reduction and digestion."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Liver Disorders",
+        "medicines": [
+          {
+            "id": 9,
+            "name": "Kutki",
+            "properties": ["Hepatoprotective", "Anti-inflammatory"],
+            "uses": ["Supports liver health", "Detoxifies the liver"],
+            "treatments": [
+              {
+                "disease": "Liver Disorders",
+                "details": "Helps in managing liver-related conditions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heart Disease",
+        "medicines": [
+          {
+            "id": 10,
+            "name": "Arjuna",
+            "properties": ["Cardioprotective", "Antioxidant"],
+            "uses": ["Supports heart function", "Regulates cholesterol levels"],
+            "treatments": [
+              {
+                "disease": "Heart Disease",
+                "details": "Helps in managing heart health."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "cold",
+        "medicines": [
+          {
+            "id": 11,
+            "name": "Tulsi",
+            "properties": ["Antibacterial", "Antiviral", "Adaptogen"],
+            "uses": ["Boosts immunity", "Relieves respiratory disorders", "Reduces stress"],
+            "treatments": [
+              {
+                "disease": "Cold",
+                "details": "Provides relief from cold symptoms."
+              },
+              {
+                "disease": "Respiratory Disorders",
+                "details": "Helps in managing respiratory conditions."
+              },
+              {
+                "disease": "Stress",
+                "details": "Helps in managing stress levels."
+              }
+            ]
+          }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Ginger",
+        "properties": ["Anti-inflammatory", "Antioxidant"],
+        "uses": ["Supports digestive health", "Reduces nausea", "Boosts immunity"],
+        "treatments": [
+          {
+            "disease": "Cold",
+            "details": "Provides relief from cold symptoms."
+          },
+          {
+            "disease": "Digestive Disorders",
+            "details": "Aids in digestive health."
+          },
+          {
+            "disease": "Nausea",
+            "details": "Helps in reducing nausea."
+          }
+        ]
+      },
+    
+  
+  {
+    "name": "fever",
+    "medicines": [
+      {
+        "id": 8,
+        "name": "Neem",
+        "properties": ["Antibacterial", "Antifungal", "Detoxifier"],
+        "uses": ["Purifies blood", "Supports skin health", "Boosts immunity"],
+        "treatments": [
+          {
+            "disease": "Fever",
+            "details": "Provides relief from fever symptoms."
+          },
+          {
+            "disease": "Skin Conditions",
+            "details": "Supports skin health and helps in treating skin infections."
+          },
+          {
+            "disease": "Diabetes",
+            "details": "Helps in managing blood sugar levels."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Turmeric",
+        "properties": ["Anti-inflammatory", "Antioxidant"],
+        "uses": ["Reduces inflammation", "Supports joint health"],
+        "treatments": [
+          {
+            "disease": "Fever",
+            "details": "Provides relief from fever symptoms."
+          },
+          {
+            "disease": "Arthritis",
+            "details": "Reduces joint inflammation."
+          },
+          {
+            "disease": "Digestive Disorders",
+            "details": "Aids in digestive health."
+          }
+        ]
+      }
+    ]
+  }
+]
+}
+
+  
